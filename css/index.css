@@ -1,0 +1,17 @@
+@font-face {
+    font-family: ArgentPixelCF;
+    src: url(ArgentPixelCF-Regular.ttf);
+}
+
+body{
+    background-image: url("../img/background.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#panel{
+    background-color: rgba(0, 0, 0, 0.8);
+    font-family: ArgentPixelCF;
+    letter-spacing: 6px;
+}
