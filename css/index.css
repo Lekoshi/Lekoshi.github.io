@@ -3,6 +3,18 @@
     src: url(ArgentPixelCF-Regular.ttf);
 }
 
+@media (max-width: 767px) { 
+    #name{
+        font-size: 25px;
+    }
+}
+
+@media (min-width: 768px) { 
+    #name{
+        font-size: 45px;
+    }
+}
+
 body{
     background-image: url("../img/background.gif");
     background-repeat: no-repeat;
