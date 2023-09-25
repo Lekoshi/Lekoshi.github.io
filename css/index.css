@@ -7,11 +7,17 @@
     #name{
         font-size: 25px;
     }
+    #description{
+        font-size: 11px;
+    }
 }
 
 @media (min-width: 768px) { 
     #name{
         font-size: 45px;
+    }
+    #description{
+        font-size: 22px;
     }
 }
 
@@ -26,4 +32,16 @@ body{
     background-color: rgba(0, 0, 0, 0.8);
     font-family: ArgentPixelCF;
     letter-spacing: 6px;
+}
+
+body {
+    cursor: url('./cursor.cur'), auto;
+}
+
+span.name{
+    cursor: url('./cursor2.cur'), auto;
+}
+
+#description{
+    color: rgb(202, 255, 252);
 }
